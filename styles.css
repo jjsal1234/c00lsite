@@ -15,7 +15,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align buttons to the left */
 }
 
 .container {
