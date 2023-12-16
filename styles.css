@@ -15,7 +15,6 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-start; /* Align buttons to the left */
 }
 
 .container {
@@ -26,6 +25,7 @@ nav {
 ul {
     list-style: none;
     display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
 }
 
 li {
