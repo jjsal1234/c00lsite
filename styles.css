@@ -20,10 +20,6 @@ nav {
     margin: 0 auto;
 }
 
-nav h1 {
-    margin: 0;
-}
-
 ul {
     list-style: none;
     display: flex;
@@ -41,11 +37,4 @@ a {
 section {
     padding: 50px 0;
     text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
 }
