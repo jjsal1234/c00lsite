@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Game Development Dashboard</title>
+    <title>School Dashboard</title>
 </head>
 <body>
     <header>
-        <h1>Game Development Dashboard</h1>
-        
-        <!-- Admin Panel Button (Placeholder) -->
-        <button id="adminPanelButton">Admin Panel</button>
+        <h1>School Dashboard</h1>
+        <button id="toggleNavButton" onclick="toggleNav()">Menu</button>
     </header>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#latest-news">Latest News</a></li>
+            <li><a href="#featured-tools">Featured Tools</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
 
     <main>
         <section class="feature clickable" onclick="window.location.href='#latest-news'">
